@@ -1,5 +1,6 @@
 /** @type {Omit<import('unified-engine').Options, 'processor'>} */
 const config = {
+  extensions: ['mdx'],
   plugins: [
     'remark-mdx',
     [
